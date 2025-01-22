@@ -1,18 +1,33 @@
+* {
+   margin: 0px;
+   margin-left:10px;
+    margin-right: 10px;
+    
+}
+
 /*Section 01 */
 
-/*no Write Text */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
 
 
 
 /*Section 02 */
 
-
 .banner {
     background-color: rgb(143, 231, 143);
     justify-content: space-between;
-    
+    padding-top: 35px;
+    margin-bottom: 30px;
+   
 
-    }
+}
+
 
 .display-style {
     display: flex;
@@ -32,11 +47,220 @@
     padding:5px 15px;
     border: 2px solid rgb(143, 231, 143);
     border-radius: 8px;
+    
+}
+.btn a {
+    text-decoration: none;
+    color: white;
 }
 
 
+.banner-text {
+    padding-top: 30px;
+}
+
+.banner-content .btn {
+    margin-top: 20px;
+}
+
 /*Section 03 */
+#pillars-content{
+    margin-left:0px;
+    margin-right: 0px;
+}
+.pillars-box {
+    display:flex;
+    margin-top:15px;
+   
+    justify-content:space-between;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.font-shape {
+    font-weight: bold;
+}
+
+.pillars-box-a {
+    background-color: rgb(102, 98, 98);
+    box-shadow:15px;
+    border-radius: 1px;
+}
+
+
+/*section 04*/
+
+#Vision-future{
+    margin-left:0px;
+    margin-right: 0px;
+}
+.future-box {
+    display: flex;
+    margin-top:15px;
+   
+}
+
+.box-b {
+    background-color: rgb(177, 170, 170);
+    margin-left: 1px;
+    margin-right: 1px;
+    height:auto;
+}
+
+
+/*Section 05*/
+
+
+#quote{
+    
+    margin-top: 20px;
+    background-color: rgb(204, 197, 197);
+    margin-bottom: 20px;
+   }
+
+
+
+   /*Section 06*/
+
+ 
+.table-degine {
+    justify-content:space-between;
+    border:2px solid red;
+   
+}
+
+.table-degine table {
+    padding:20px;
+    margin: 0px;
+    }
+.table-degine .btn {
+    background:none;
+    color: black;
+    border: none;
+}
 
 
 
 
+
+/*Section 07*/
+
+.news-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.news-content .btn {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+
+/*Section 08*/
+
+#donat-centaineare {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(218, 221, 218);
+    
+}
+.taka-containeare{
+    justify-content: space-between;
+}
+
+
+.btn-style {
+    margin-top: 20px;
+    color: red;
+}
+
+
+.taka {
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+   
+}
+
+.taka:hover {
+    color: white;
+    background-color: green;
+    
+    border-radius: 5px;
+
+}
+
+.form-a {
+    padding: 8px 100px;
+}
+
+
+/*Section 09*/
+
+
+#subscribe-section {
+    background-color: rgb(129, 231, 129);
+    border: 2px solid red;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.subscribe-text {
+    padding-top:5px;
+}
+
+
+.subscribe-form {
+    margin: 20px;
+}
+.subscribe-type {
+    padding: 8px 30px;
+    
+}
+
+.subscribe-btn {
+   margin-left: 0px;
+   padding-left:0px;
+    padding: 8px 8px;
+    background-color: rgb(56, 153, 56);
+    border-radius: 5px;
+    color: red;
+}
+
+.subscribe-btn a {
+    text-decoration: none;
+}
+
+
+
+
+/*Section 10*/
+
+
+footer {
+    justify-content: center;
+    text-align: center;
+    margin:20px;
+    background-color: rgb(218, 212, 212);
+
+}
+
+
+.footer-icon{
+    display: flex;
+    padding:15px;
+    justify-content: center;
+   
+}
+
+.footer-icon a {
+    text-decoration: none;
+
+}
